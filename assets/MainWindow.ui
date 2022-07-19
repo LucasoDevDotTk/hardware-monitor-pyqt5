@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1558</width>
-    <height>1053</height>
+    <width>1564</width>
+    <height>1081</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,10 +17,10 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>370</y>
-      <width>1539</width>
-      <height>23</height>
+      <x>610</x>
+      <y>600</y>
+      <width>311</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -33,11 +33,11 @@ font: 90 15pt &quot;Ubuntu&quot;;</string>
      <string>More Hardware Information</string>
     </property>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>1000</y>
+      <y>1040</y>
       <width>782</width>
       <height>31</height>
      </rect>
@@ -66,21 +66,6 @@ font: 90 15pt &quot;Ubuntu&quot;;</string>
      </item>
     </layout>
    </widget>
-   <widget class="QWidget" name="">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>390</y>
-      <width>1541</width>
-      <height>601</height>
-     </rect>
-    </property>
-    <layout class="QVBoxLayout" name="verticalLayout">
-     <item>
-      <widget class="QListWidget" name="listWidget"/>
-     </item>
-    </layout>
-   </widget>
    <widget class="QSplitter" name="splitter">
     <property name="geometry">
      <rect>
@@ -97,6 +82,50 @@ font: 90 15pt &quot;Ubuntu&quot;;</string>
     <widget class="QListView" name="listView_3"/>
     <widget class="QListView" name="listView_2"/>
     <widget class="QListView" name="listView_4"/>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>660</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 20pt &quot;Ubuntu-bold&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Processes</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>410</y>
+      <width>89</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(1, 206, 174);
+color:white;</string>
+    </property>
+    <property name="text">
+     <string>CPU</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>700</y>
+      <width>1541</width>
+      <height>311</height>
+     </rect>
+    </property>
    </widget>
   </widget>
  </widget>
